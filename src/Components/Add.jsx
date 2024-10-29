@@ -1,15 +1,15 @@
 function Add() {
   return (
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-6">
+    <div className="container">
+      <div className="row add-row">
+        <div className="col-6">
           <input type="text" placeholder="Enter Task" />
         </div>
-        <div class="col-4">
+        <div className="col-4">
           <input type="date" />
         </div>
-        <div class="col-2">
-          <button type="button" class="btn btn-success">
+        <div className="col-2">
+          <button type="button" className="btn add-btn btn-success">
             Add
           </button>
         </div>
